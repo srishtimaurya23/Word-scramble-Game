@@ -1,13 +1,13 @@
 # Word Scramble Game
 
 ## Overview
-Word Scramble Game is a Python command line game. In this game, the characters of a word are scrambled up and the player has to guess the word. Game has 3 difficulty modes and gives limited number of turns. The game is primarily designed for practicing simple Python syntax and for fun vocabulary improvement.
+Word Scramble Game In this game a word's characters are scrambled up and the player has to guess the word. The game has 3 difficulty modes and a limited number of turns. This game is mainly made for practicing simple Python syntax and also to have a fun time.
 
 ## Features
 * Easy, Medium, and Hard difficulty levels
 * Words are selected randomly
-* Mixing of letters before displayed to the player
-* 3 attempts are provided for every word
+* Interchanging of characters before showing to player.
+* You get 3 tries per word
 * 5 words are played per game.
 * Score is displayed at the end
 * Player can choose to play again
@@ -16,46 +16,42 @@ Word Scramble Game is a Python command line game. In this game, the characters o
 
 ## Technologies and Tools Used
 * Python - Main programming language
-* Random module - Called upon to select and scramble words
-* VS code - For writing and testing the code
+* Random module - Used for promptness when picking and shuffling words
+* VS code - to write and test the code.
 * Git - Used for version control
-* GitHub – To store and contribute to the project.
+* GitHub – For contributions and storage of the project.
 
 ## Project Files
 The main files in the project are:
 * main.py - Starts the game
 * game_logic.py - Main game functions
 * utils.py - Contains helper functions
-* word_bank.py - The words used in the game
+* word_bank.py – The words the game uses
 * statement.md - Contains the project statement
 
 ## Installation
-### Step 1: Install Python
-Ensure you have Python installed by download Python from official Python website.
-### Step 2: Download the Project
-Clone the project from GitHub or through Git…
-`bash
-git clone https://github.com/srishtimaurya23/WordscrambleGame.git
+# Step 1: Install Python
+Python Script You need to have Python installed. I personally use Python3. You can download it from Python official website.
+# Step 2: Download the Project
+Clone the project from Github or from Git…
 `
-### Step 3: Open the Project Folder
-Locate the zip folder on your computer after you download it. Open the folder in VSCode or other editors that support Python.
-### Step 4: Run the Game
-Open the terminal inside the project folder and run:
-`bash
-python main.py
+/bash
+git clone https://github.com/srishtimaurya23/Wordscramble Game.git
 `
-Use: if python doesn't work on your system.
+# Step 3: Open the Project Folder
+Find the zip folder on your local computer once you have downloaded it. Open the folder in VSCode or your other favorite editors that support python.
+# Step 4: Run the Game
+Navigate to the terminal in the folder of the project and execute the following:
 `bash
-python3 main.py
-`
+python main.py`
 
 ## How to Play
 1. Start the game using main.py.
 2. Select a difficulty level.
 3. A scrambled word will be displayed.
 4. Type your guess in the terminal.
-5. Attempts allowed on words You will be given a maximum of 3 attempts on each word.
-6. Repeat until a total of 5 words have been made.
+5. No of attempts on words You will get maximum 3 attempts on each word.
+6. Make 5 words in all Repeat 6-8 for a total of 5 words.
 7. Your final score will be displayed.
 8. Play other game(s).
 
@@ -71,7 +67,7 @@ Then check the following:
 * The player can enter an answer.
 * Wrong answers use an attempt.
 * Correct answers increase the score.
-* The game advances to the subsequent word.
+* The game proceeds to the following word.
 * The final score is displayed correctly.
 * The replay option works properly.
 
