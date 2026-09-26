@@ -1,107 +1,79 @@
-# Word Scramble Challenge
-
-A simple **command-line Word Scramble Game** made with Python
+# Word Scramble Game
 
 ## Overview
-
-* The game selects five random words from a chosen difficulty level and scrambles their letters. 
-* The player gets three attempts for each word.
-* A correct answer gives one point. 
-* The score is displayed after each game, and the cumulative score is displayed when the player exits.
+Word Scramble Game is a Python command line game. In this game, the characters of a word are scrambled up and the player has to guess the word. Game has 3 difficulty modes and gives limited number of turns. The game is primarily designed for practicing simple Python syntax and for fun vocabulary improvement.
 
 ## Features
+* Easy, Medium, and Hard difficulty levels
+* Words are selected randomly
+* Mixing of letters before displayed to the player
+* 3 attempts are provided for every word
+* 5 words are played per game.
+* Score is displayed at the end
+* Player can choose to play again
+* Runs directly in the terminal
+* No external Python packages are required
 
-- Easy, Medium and Hard levels
-- 5 random words per game
-- 3 attempts for each word
-- Automatic answer checking
-- Score out of 5 for each game
-- Cumulative score for multiple games
-- Input validation for difficulty and replay choices
-- Modular Python files
-- Basic validation tests
+## Technologies and Tools Used
+* Python - Main programming language
+* Random module - Called upon to select and scramble words
+* VS code - For writing and testing the code
+* Git - Used for version control
+* GitHub – To store and contribute to the project.
 
-## Functional Modules
+## Project Files
+The main files in the project are:
+* main.py - Starts the game
+* game_logic.py - Main game functions
+* utils.py - Contains helper functions
+* word_bank.py - The words used in the game
+* statement.md - Contains the project statement
 
-1. **Word Management** – `word_bank.py` stores words for each difficulty.
-2. **Game Logic** – `game_logic.py` controls word selection, attempts, answer checking and scoring.
-3. **User Interaction** – `utils.py` and `input_handler.py` handle menus and user input.
-4. **Score Management** – `score_manager.py` displays game and final results.
-
-## Non-Functional Requirements
-
-- **Usability:** simple CLI prompts make the game easy to use.
-- **Performance:** words are stored in memory and processed quickly.
-- **Reliability:** invalid menu and replay choices are handled through validation.
-- **Maintainability:** related functions are separated into modules.
-- **Resource Efficiency:** only Python standard-library features are used.
-- **Portability:** the program can run with Python 3.x.
-
-## Requirements
-
-- Python 3.x
-- VS Code or any Python-supported editor
-- Git for GitHub submission
-
-## Project Structure
-
-```text
-Word-Scramble-Game/
-├── main.py
-├── game_logic.py
-├── utils.py
-├── input_handler.py
-├── score_manager.py
-├── word_bank.py
-├── test_game.py
-├── statement.md
-├── README.md
-```
-
-## Setup & Run
-
-Clone the repository:
-
-```bash
-git clone https://github.com/srishtimaurya23/Word_scramble_Game.git
-cd Word_scramble_Game
-```
-
-Run the game:
-
-```bash
+## Installation
+### Step 1: Install Python
+Ensure you have Python installed by download Python from official Python website.
+### Step 2: Download the Project
+Clone the project from GitHub or through Git…
+`bash
+git clone https://github.com/srishtimaurya23/WordscrambleGame.git
+`
+### Step 3: Open the Project Folder
+Locate the zip folder on your computer after you download it. Open the folder in VSCode or other editors that support Python.
+### Step 4: Run the Game
+Open the terminal inside the project folder and run:
+`bash
 python main.py
-```
-
-On Windows, you can also use:
-
-```bash
-py main.py
-```
+`
+Use: if python doesn't work on your system.
+`bash
+python3 main.py
+`
 
 ## How to Play
+1. Start the game using main.py.
+2. Select a difficulty level.
+3. A scrambled word will be displayed.
+4. Type your guess in the terminal.
+5. Attempts allowed on words You will be given a maximum of 3 attempts on each word.
+6. Repeat until a total of 5 words have been made.
+7. Your final score will be displayed.
+8. Play other game(s).
 
-1. Select a difficulty level.
-2. A scrambled word is displayed.
-3. Enter your answer.
-4. You get 3 attempts for each word.
-5. Five words are played in one game.
-6. Check your score.
-7. Choose whether to play again.
-
-## Testing
-
-Run:
-
-```bash
-python test_game.py
-```
-
-The tests check:
-- scrambled words contain the same letters as the original word
-- all three difficulty levels exist
-- every level has at least five words
-- replay validation accepts only `y` or `n`
+## Testing Instructions
+Run the game:
+`bash
+python main.py
+`
+Then check the following:
+* The game starts without errors.
+* The difficulty level can be selected.
+* A scrambled word is displayed.
+* The player can enter an answer.
+* Wrong answers use an attempt.
+* Correct answers increase the score.
+* The game advances to the subsequent word.
+* The final score is displayed correctly.
+* The replay option works properly.
 
 ## Screenshots
 
