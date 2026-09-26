@@ -1,4 +1,4 @@
-## Project Statement
+# Project Statement
 
 # Project Title
 Word Scramble Challenge – A Python Command-Line Game
