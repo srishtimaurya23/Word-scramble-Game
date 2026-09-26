@@ -1,11 +1,12 @@
 # Word Scramble Challenge
 
-A simple **command-line Word Scramble Game** made with Python as a VITyarthi project.
+A simple **command-line Word Scramble Game** made with Python
 
 ## Overview
 
 * The game selects five random words from a chosen difficulty level and scrambles their letters. 
-* The player gets three attempts for each word. A correct answer gives one point. 
+* The player gets three attempts for each word.
+* A correct answer gives one point. 
 * The score is displayed after each game, and the cumulative score is displayed when the player exits.
 
 ## Features
@@ -41,8 +42,6 @@ A simple **command-line Word Scramble Game** made with Python as a VITyarthi pro
 - Python 3.x
 - VS Code or any Python-supported editor
 - Git for GitHub submission
-
-**No external packages are required.**
 
 ## Project Structure
 
@@ -103,16 +102,6 @@ The tests check:
 - all three difficulty levels exist
 - every level has at least five words
 - replay validation accepts only `y` or `n`
-
-## Design Diagrams
-
-The following design diagrams are available in [`docs/design.md`](docs/design.md):
-
-- System Architecture Diagram
-- Workflow Diagram
-- Use Case Diagram
-- Sequence Diagram
-- Component/File Relationship Diagram
 
 ## Screenshots
 
