@@ -60,6 +60,7 @@ Run the game:
 `bash
 python main.py
 `
+
 Then check the following:
 * The game starts without errors.
 * The difficulty level can be selected.
