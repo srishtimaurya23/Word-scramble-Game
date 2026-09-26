@@ -4,21 +4,21 @@
 Word Scramble Game In this game a word's characters are scrambled up and the player has to guess the word. The game has 3 difficulty modes and a limited number of turns. This game is mainly made for practicing simple Python syntax and also to have a fun time.
 
 ## Features
-* Easy, Medium, and Hard difficulty levels
-* Words are selected randomly
+* Easy, Medium, and Hard difficulty levels.
+* Words are selected randomly.
 * Interchanging of characters before showing to player.
-* You get 3 tries per word
+* You get 3 tries per word.
 * 5 words are played per game.
-* Score is displayed at the end
-* Player can choose to play again
-* Runs directly in the terminal
-* No external Python packages are required
+* Score is displayed at the end.
+* Player can choose to play again.
+* Runs directly in the terminal.
+* No external Python packages are required.
 
 ## Technologies and Tools Used
-* Python - Main programming language
-* Random module - Used for promptness when picking and shuffling words
+* Python - Main programming language.
+* Random module - Used for promptness when picking and shuffling words.
 * VS code - to write and test the code.
-* Git - Used for version control
+* Git - Used for version control.
 * GitHub – For contributions and storage of the project.
 
 ## Project Files
@@ -35,14 +35,13 @@ Python Script You need to have Python installed. I personally use Python3. You c
 # Step 2: Download the Project
 Clone the project from Github or from Git…
 `
-/bash
 git clone https://github.com/srishtimaurya23/Wordscramble Game.git
 `
 # Step 3: Open the Project Folder
 Find the zip folder on your local computer once you have downloaded it. Open the folder in VSCode or your other favorite editors that support python.
 # Step 4: Run the Game
 Navigate to the terminal in the folder of the project and execute the following:
-`bash
+`
 python main.py`
 
 ## How to Play
@@ -53,11 +52,11 @@ python main.py`
 5. No of attempts on words You will get maximum 3 attempts on each word.
 6. Make 5 words in all Repeat 6-8 for a total of 5 words.
 7. Your final score will be displayed.
-8. Play other game(s).
+8. Play other game.
 
 ## Testing Instructions
 Run the game:
-`bash
+`
 python main.py
 `
 
