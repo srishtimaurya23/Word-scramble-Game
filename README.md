@@ -30,16 +30,16 @@ The main files in the project are:
 * statement.md - Contains the project statement
 
 ## Installation
-# Step 1: Install Python
+### Step 1: Install Python
 Python Script You need to have Python installed. I personally use Python3. You can download it from Python official website.
-# Step 2: Download the Project
+### Step 2: Download the Project
 Clone the project from Github or from Git…
 `
 git clone https://github.com/srishtimaurya23/Wordscramble Game.git
 `
-# Step 3: Open the Project Folder
+### Step 3: Open the Project Folder
 Find the zip folder on your local computer once you have downloaded it. Open the folder in VSCode or your other favorite editors that support python.
-# Step 4: Run the Game
+### Step 4: Run the Game
 Navigate to the terminal in the folder of the project and execute the following:
 `
 python main.py`
