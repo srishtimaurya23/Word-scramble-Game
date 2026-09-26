@@ -74,5 +74,4 @@ The project is designed to practise:
 * Programming Language: Python 3
 * Module Used: random
 * Interface: Command Line Interface (CLI)
-
-Version Control: Git and GitHub
+* Version Control: Git and GitHub
