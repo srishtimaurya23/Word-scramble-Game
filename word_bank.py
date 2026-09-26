@@ -1,14 +1,3 @@
-WORDS = {
-    "easy": [
-        "cat", "book", "fish", "tree", "moon", 
-        "star", "milk", "rain", "bird", "cake"
-    ],
-    "medium": [
-        "garden", "planet", "rabbit", "school", "flower", 
-        "bridge", "forest", "bottle", "summer", "winter"
-    ],
-    "hard": [
-        "adventure", "education", "knowledge", "technology", "confidence", 
-        "motivation", "creativity", "leadership", "experience", "beautiful"
-    ]
-}
+WORDS = {"easy": ["cat", "book", "fish", "tree", "moon", "star", "milk", "rain", "bird", "cake","apple","house","chair","water","tiger","mango","phone","pizza","river","cloud"],
+    "medium": ["garden", "planet", "rabbit", "school", "flower", "bridge", "forest", "bottle", "summer", "winter","bicycle","penguin","volcano","library","dolphin","airport","rainbow","football","hospital","picture"],
+    "hard": ["adventure", "education", "knowledge", "technology", "confidence", "motivation", "creativity", "leadership", "experience", "beautiful","telescope","electricity","helicopter","lighthouse","chocolate","butterfly","restaurant","celebration","imagination","environment"]}
